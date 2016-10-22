@@ -18,26 +18,37 @@
     <sprite>sprites\sp_cross</sprite>
     <sprite>sprites\sp_sand</sprite>
     <sprite>sprites\sp_goo</sprite>
+    <sprite>sprites\sp_teleporter</sprite>
+    <sprite>sprites\sp_confuse_zone</sprite>
+    <sprite>sprites\sp_boost_zone</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pth_wall_sidem</path>
+    <path>paths\pth_hole_inf</path>
+    <path>paths\pth_hole_circle</path>
   </paths>
   <fonts name="fonts">
     <font>fonts\fnt_display</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_golfball</object>
-    <object>objects\obj_wall</object>
     <object>objects\obj_banner</object>
-    <object>objects\obj_hole</object>
     <object>objects\obj_cmd</object>
-    <object>objects\obj_cross</object>
+    <object>objects\obj_golfball</object>
+    <object>objects\obj_hole</object>
+    <object>objects\obj_hole_inf</object>
+    <object>objects\obj_hole_circle</object>
+    <object>objects\obj_confuse_zone</object>
+    <object>objects\obj_boost_zone</object>
     <object>objects\obj_sand</object>
+    <object>objects\obj_cross</object>
     <object>objects\obj_goo</object>
+    <object>objects\obj_wall</object>
     <object>objects\obj_wall_sidem</object>
+    <object>objects\obj_teleporter_one</object>
+    <object>objects\obj_teleporter_two</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_lev1</room>
@@ -47,6 +58,13 @@
     <room>rooms\rm_lev5</room>
     <room>rooms\rm_lev6</room>
     <room>rooms\rm_lev7</room>
+    <room>rooms\rm_lev8</room>
+    <room>rooms\rm_lev9</room>
+    <room>rooms\rm_lev10</room>
+    <room>rooms\rm_lev11</room>
+    <room>rooms\rm_lev12</room>
+    <room>rooms\rm_lev13</room>
+    <room>rooms\rm_lev14</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
